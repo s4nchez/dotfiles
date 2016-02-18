@@ -1,0 +1,12 @@
+[user]
+	name = Ivan Sanchez
+	email = s4nchez@gmail.com
+[credential]
+	helper = osxkeychain
+[push]
+	default = current
+[branch]
+	autosetuprebase = always
+[core]
+	editor = subl -nw
+	autocrlf = input
