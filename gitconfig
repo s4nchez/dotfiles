@@ -10,3 +10,4 @@
 [core]
 	editor = subl -nw
 	autocrlf = input
+	ignorecase = false
