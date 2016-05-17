@@ -11,3 +11,5 @@
 	editor = subl -nw
 	autocrlf = input
 	ignorecase = false
+[alias]
+	outgoing = log @{u}..
