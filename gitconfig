@@ -12,4 +12,9 @@
 	autocrlf = input
 	ignorecase = false
 [alias]
-	outgoing = log @{u}..
+	l = "log --oneline --decorate --color --graph"
+	up = pull --rebase
+	sup = "!git stash; git pull --rebase; git stash pop"
+	out = "log @{u}.. --oneline --decorate --color --graph"
+	in = "!git remote update -p; git log ..@{u} --oneline --decorate --color --graph"
+	st = status
