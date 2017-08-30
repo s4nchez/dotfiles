@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+autoload -U colors
+colors
+
 eval "$(rbenv init -)"
 
 export JAVA_HOME=`/usr/libexec/java_home`
