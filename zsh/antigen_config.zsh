@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-source ~/.antigen.git/antigen.zsh
+#source ~/.antigen.git/antigen.zsh
+source /usr/local/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 antigen bundle command-not-found
