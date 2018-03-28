@@ -18,3 +18,5 @@
 	out = "log @{u}.. --oneline --decorate --color --graph"
 	in = "!git remote update -p; git log ..@{u} --oneline --decorate --color --graph"
 	st = status
+[commit]
+	gpgsign = true
