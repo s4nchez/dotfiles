@@ -20,3 +20,5 @@
 	st = status
 [commit]
 	gpgsign = true
+[gpg]
+        program = /Users/isanchez/dotfiles/scripts/gpg-no-tty.sh
