@@ -1,6 +1,7 @@
 [user]
 	name = Ivan Sanchez
 	email = ivan@gourame.com
+	signingkey = BA72A0C73ABA533B
 [credential]
 	helper = osxkeychain
 [push]
@@ -20,5 +21,3 @@
 	st = status
 [commit]
 	gpgsign = true
-[gpg]
-        program = /Users/isanchez/dotfiles/scripts/gpg-no-tty.sh
