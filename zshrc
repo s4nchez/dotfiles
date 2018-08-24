@@ -2,6 +2,8 @@
 
 autoload -U colors
 colors
+export CLICOLOR=1
+export TERM=xterm-256color
 
 eval "$(rbenv init -)"
 eval "$(nodenv init -)"
