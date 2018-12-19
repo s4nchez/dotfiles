@@ -28,5 +28,5 @@ for i in ~/dotfiles/zsh/*.zsh ; do
         source $i
     fi
 done
-antigen theme sorin
+antigen theme bhilburn/powerlevel9k powerlevel9k
 antigen apply
