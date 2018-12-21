@@ -11,6 +11,8 @@ eval "$(nodenv init -)"
 export JAVA_HOME=`/usr/libexec/java_home`
 export PATH=$PATH:~/bin
 export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
+export GOPATH=$HOME/go
 
 source /usr/local/share/antigen/antigen.zsh
 antigen use oh-my-zsh
