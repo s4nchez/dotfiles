@@ -7,11 +7,15 @@ export TERM=xterm-256color
 
 eval "$(rbenv init -)"
 eval "$(nodenv init -)"
+eval "$(jenv init -)"
+eval "$(pyenv init -)"
 
-export JAVA_HOME=`/usr/libexec/java_home`
 export PATH=$PATH:~/bin
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$HOME/.jenv/bin:$PATH"
+export PATH="$PYENV_ROOT/bin:$PATH"
 export GOPATH=$HOME/go
 
 source /usr/local/share/antigen/antigen.zsh
