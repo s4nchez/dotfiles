@@ -17,9 +17,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$HOME/.jenv/bin:$PATH"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export PATH="$HOME/.nodenv/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
 export GOPATH=$HOME/go
 
-source /usr/local/share/antigen/antigen.zsh
+source /opt/homebrew/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 # client specific config
@@ -40,4 +41,4 @@ antigen apply
 alias aws-okta=". ~/.aws_okta/aws-okta"
 autoload bashcompinit && bashcompinit
 autoload -Uz compinit && compinit
-complete -C '/usr/local/bin/aws_completer' aws
+complete -C '/opt/homebrew/bin/aws_completer' aws
